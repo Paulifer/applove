@@ -17,7 +17,7 @@
 
 body {
   /* Establece la fuente de Google aquí */
-  margin: -70px auto;
+  margin: -89px auto;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
@@ -107,4 +107,32 @@ footer{
 }
 #Work{
   text-align: center;
+  overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.proyecto {
+  display: block;
+  width: 30%;
+  float: left;
+  margin: 35px 1.5%;
+}
+
+.proyecto img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.proyecto p {
+  font-weight: bold;
+}
+
+.box-services{
+  cursor: pointer;
 }
