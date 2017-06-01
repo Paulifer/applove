@@ -17,7 +17,7 @@
 
 body {
   /* Establece la fuente de Google aquí */
-  margin: 0 auto;
+  margin: -70px auto;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
@@ -104,4 +104,7 @@ footer{
   background-color: #373B47;
   color: white;
   padding-top: 7px;
+}
+#Work{
+  text-align: center;
 }
