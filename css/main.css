@@ -136,3 +136,42 @@ footer{
 .box-services{
   cursor: pointer;
 }
+/*Modal*/
+#box-services-modal{
+  background-color: rgba(240,30,80,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border: 10%;
+}
+
+#box-services-modal .modal-body{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#box-services-modal .cerrar{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+#box-services-modal .cerrar img{
+  width: 60px;
+}
+
+.equis{
+  display: none;
+}
+
+.modal-body img {
+  width: 80%;
+  min-width: 290px;
+  border: 20px solid #fff;
+  border-radius: 10px;
+}
